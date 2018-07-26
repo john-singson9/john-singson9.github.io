@@ -3,51 +3,87 @@
 <head>
   <meta charset="UTF-8">
   <title>Biography</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 
 <body>
-  <h1>John Singson</h1>
+<!-- JUMBOTRON -->
+<div class="jumbotron">
+  <div class="container">
+    <h1 class="display-4">John Singson</h1>
+    <p class="lead">Welcome to my page!</p>
+  </div>
+</div>
 
-  <img src="https://placehold.it/200x200" alt="Your Name">
+<!-- NAVBAR -->
+<nav class="navbar navbar-inverted navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">John Singson Portfolio</a>
+    </div>
+    <ul class ="nav navbar-nav navbar-right">
+      <li><a href="#"><span class="glyphicon glyphicon-user"></span>Home</a></li>
+      <li><a href="#"><span class="glyphicon glyphicon-user"></span>About Me</a></li>
+      <li><a href="#"><span class="glyphicon glyphicon-user"></span>Portfolio</a></li>
+      <li><a href="#"><span class="glyphicon glyphicon-user"></span>Contact Me</a></li>
+    </ul>
+  </div>
+</nav>
 
-  <h2>Life Story</h2>
-  <p>I was born in the Philippines in 1991, the youngest out of 4 siblings.
-     When I was 13 years old, my parents and one of my sisters moved to a small town in Texas where I spent the rest of my teenage years.
-     I joined the
-  </p>
+<!-- PARALLAX SCROLLING 1: ABOUT ME -->
+<div id="parallax-portfolio">
+  <section>
+    <div class="parallax-one">
+      <h1>About Me</h1>
+      <h3>A little story</h3>
+    </div>
+  </section>
 
-  <h2>Future Endeavors</h2>
-  <p></p>
+  <section>
+    <div class="block">
+      <p class="margin-top-10">Stuff about me.  Here's a little about me. Hello my name is John
 
-  <ul>
-    <li><strong>Email:</strong> <a href="mailto:somepalce@gmail.com">john.singson9@gmail.com</a></li>
-    <li><strong>Linkedin:</strong> <a href="https://www.linkedin.com/in/johnsingson">John Singson</a></li>
-    <li><strong>Github:</strong> <a href="https://github.com/john-singson9">John Singson</a></li>
-    <li><strong>Instagram:</strong> <a href="https://www.instagram.com/journeyswithjohn/?hl=en">journeyswithjohn</a></li>
-  </ul>
+      </p>
+    </div>
+  </section>
 
-  <table>
-    <tr>
-      <th>Category 1</th>
-      <th>Category 2</th>
-      <th>Category 3</th>
-    </tr>
-    <tr>
-      <td>Input 1</td>
-      <td>Input 2</td>
-      <td>Input 3</td>
-    </tr>
-    <tr>
-      <td>Input 1</td>
-      <td>Input 2</td>
-      <td>Input 3</td>
-    </tr>
-    <tr>
-      <td>Input 1</td>
-      <td>Input 2</td>
-      <td>Input 3</td>
-    </tr>
-  </table>
+<!-- PARALLAX SCROLLING 2: PORTFOLIO -->
+  <section>
+    <div class="parallax-two">
+      <h1>Portfolio</h1>
+      <h3>Here are some of my projects</h3>
+    </div>
+  </section>
+
+  <section>
+    <div class="block">
+      <p class="margin-top-10">Stuff about me.  Here's a little about me. Hello my name is John
+
+      </p>
+    </div>
+  </section>
+
+<!-- PARALLAX SCROLLING 3: CONTACT -->
+  <section>
+    <div class="parallax-two">
+      <h1>Contact</h1>
+      <h3>Feel free to shoot me a message</h3>
+    </div>
+  </section>
+    
+  <section>
+    <div class="block">
+      <p class="margin-top-10">Stuff about me.  Here's a little about me. Hello my name is John
+    
+      </p>
+    </div>
+  </section>
+
+</div>
+
+
 </body>
 
 </html>
