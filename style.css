@@ -1,0 +1,45 @@
+.title-header {
+    color: white;
+    text-align: center;
+    font-size: 50pt;
+    background-color: black;
+}
+
+.parallax-one {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    position: relative;
+    width: 100%;
+    background-image: url("images/me-kids.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    /* -moz-background-size: cover; */
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    opacity: .6;
+    /* -webkit-background-size: cover; */
+}
+
+.parallax-two {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    position: relative;
+    width: 100%;
+    background-image: url("images/U\ Squad.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.parallax-three {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    position: relative;
+    width: 100%;
+    background-image: url("images/jumbotron\ image.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
